@@ -15,6 +15,9 @@ public abstract class BasePiece {
   public abstract void setPosition(int x, int y);
 
   public void show(){
-    System.out.println(this.piece);
+    System.out.print(this.piece);
+  }
+  public String toString(){
+    return this.piece;
   }
 }
